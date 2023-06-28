@@ -1,0 +1,654 @@
+@media only screen and (max-width: 1024px) {
+    .navbar-area a {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .offer-productContent button {
+        width: 185px;
+        height: 60px;
+    }
+
+    .video-right img {
+        width: 110px;
+        position: absolute;
+        left: 60%;
+    }
+
+    .food-right {
+        left: 55%;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .home-section {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    /* .paw-right img  {
+        padding: 38px 0;
+        width: 100px;
+    } */
+
+    .foodMore {
+        margin: -7% 0% 30px;
+    }
+
+    .section-padding {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .offerProImg img {
+        width: 210px;
+    }
+
+    .food h5 {
+        margin: 0 0 20px;
+    }
+
+    .offer-productContent h1 {
+        font-size: 27px;
+    }
+
+    .offer-productContent button {
+        width: 150px;
+        height: 50px;
+    }
+
+    .offer-rightIMG img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 913px) {
+    .paw-right img {
+        width: 80px;
+        margin: 16px 0;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .home-content h1 {
+        font-size: 65px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .home-content p {
+        margin: 30px 0;
+    }
+
+    .main-head {
+        line-height: 56px;
+    }
+
+    .home-bg img {
+        padding: 0 80px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* .container {
+        padding: 0 30px !important;
+    } */
+}
+
+@media only screen and (max-width: 540px) {
+    .home-content {
+        padding: 20px 40px 0;
+    }
+
+    .food-product {
+        padding: 15px 15px 28px;
+    }
+
+    .offerProImg {
+        text-align: center;
+    }
+
+    .offerProImg img {
+        width: 125px;
+    }
+
+    .offer-productContent h1 {
+        font-size: 16px;
+    }
+
+    .offer-productContent button {
+        width: 100px;
+        height: 35px;
+        border-radius: 4px;
+        font-size: 15px;
+    }
+
+    .food-product img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .food-product h6 {
+        font-size: 17px;
+    }
+
+    .food-product p {
+        font-size: 12px;
+    }
+
+    .brandLOGO img {
+        width: 80px;
+    }
+
+    .brand-text h5 {
+        font-size: 20px;
+    }
+    .brand-bg h5 {
+        font-size: 18px;
+    }
+    .brand-bg p {
+        font-size: 9px;
+    }
+    .brand-bg a img {
+        width: 16px;
+    }
+    .social-media a {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .brand-main img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .brand-bg a {
+        margin: 0 2px 0 2px;
+    }
+
+    .all-btn button {
+        height: 40px;
+        padding: 0 25px;
+    }
+
+    .home-content h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .home-content button {
+        height: 50px;
+        font-size: 18px;
+        padding: 0 18px;
+    }
+
+    .main-head {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .foodMore {
+        margin: 0 0 20px;
+        text-align: left;
+    }
+
+    .container {
+        padding: 0 25px !important;
+    }
+
+    .offer-rightIMG img {
+        width: 125px;
+    }
+
+    .offer-rightIMG {
+        right: 10px;
+    }
+
+    .paw-right img {
+        display: none;
+    }
+
+    .food h5 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    p {
+        font-size: 16px;
+    }
+
+    .home-content h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .main-head {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .Shop-Deals img {
+        width: 170px;
+    }
+
+    .food-product img {
+        width: 80px;
+        height: 80px;
+        margin: 8px 0;
+    }
+
+    .food-product h6 {
+        font-size: 17px;
+    }
+
+    .all-btn button {
+        height: 25px;
+        padding: 0 12px;
+        border-radius: 4px;
+        font-size: 10px;
+    }
+
+    .food-product {
+        padding: 0 10px 15px;
+    }
+
+    .brand-main img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .brand-bg h5 {
+        font-size: 18px;
+    }
+
+    .brand-bg p {
+        font-size: 10px;
+    }
+
+    .brand-bg a img {
+        width: 20px;
+    }
+
+    .home-content button {
+        height: 60px;
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .home-section {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .home-bg img {
+        padding: 30px;
+    }
+
+    .offerProImg img {
+        width: 125px;
+    }
+
+    .offer-productContent h1 {
+        font-size: 13px;
+    }
+
+    .offer-productContent button {
+        width: 109px;
+        height: 35px;
+        font-size: 16px;
+        border-radius: 3px;
+    }
+
+    .offer-rightIMG img {
+        width: 108px;
+    }
+
+    .offer-rightIMG {
+        right: 2px;
+        top: 26%;
+    }
+
+    .foodMore {
+        margin: 0 0 10px;
+        text-align: left;
+    }
+
+    .food h5 {
+        font-size: 20px;
+    }
+
+    .food h5:before {
+        top: 18px;
+        left: 0px;
+        width: 25%;
+        border-bottom: 3px solid #008EFD;
+    }
+
+    .foodMore a {
+        font-size: 18px;
+    }
+
+    .foodMoreone {
+        text-align: right;
+        margin: 0 0 30px;
+    }
+
+    .brandLOGO img {
+        width: 85px;
+    }
+
+    .footer-list ul li a {
+        font-size: 14px;
+    }
+
+    .social-media a {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .footer-list ul li a img {
+        margin: 0;
+        width: 100px;
+    }
+
+    .footer-list h5 {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .offer-productBG {
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 393px) {
+    .aboutImg-main {
+        margin: 0 -15%;
+    }
+
+    .video-right img {
+        left: 64%;
+    }
+
+    .video-right img {
+        width: 100px;
+        left: 55%;
+    }
+
+    .food-right {
+        left: 60%;
+    }
+
+    .brand-text h5 {
+        font-size: 20px;
+    }
+
+    .food-product h6 {
+        font-size: 14px;
+    }
+
+    .food-product p {
+        font-size: 10px;
+    }
+
+    .brand-bg h5 {
+        font-size: 15px;
+    }
+
+    .social-media a {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .footer-list ul li {
+        list-style-type: none;
+        margin: 5px 0;
+    }
+    .footer-list ul li a {
+        font-size: 12px;
+    }
+    .footer-list h5 {
+        font-size: 14px;
+        margin: 0 0 10px;
+    }
+
+    .brand-bg a img {
+        width: 16px;
+    }
+
+    .brand-bg p {
+        font-size: 9px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .food-product img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .home-content h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .video-right img {
+        width: 90px;
+        left: 62%;
+    }
+
+    .food-right {
+        left: 70%;
+    }
+
+    .food-right img {
+        width: 58px;
+    }
+
+    .main-head {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .home-content p {
+        margin: 10px 0 22px;
+    }
+
+    .home-content button {
+        height: 46px;
+        font-size: 15px;
+        padding: 0px 15px;
+    }
+
+    .food-product h6 {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .food-product p {
+        font-size: 8px;
+    }
+
+    .offerProImg img {
+        width: 95px;
+    }
+
+    .offer-productContent h1 {
+        font-size: 9px;
+    }
+
+    .offer-productContent button {
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .offer-rightIMG img {
+        width: 95px;
+    }
+
+    .foodMoreone a {
+        font-size: 18px;
+    }
+
+    .brandLOGO img {
+        width: 70px;
+    }
+
+    .brand-text h5 {
+        font-size: 15px;
+    }
+
+    .brand-bg h5 {
+        font-size: 12px;
+    }
+
+    .brand-bg p {
+        font-size: 7px;
+        margin: 0;
+    }
+
+    .brand-bg a img {
+        width: 12px;
+    }
+
+    .footer-list h5 {
+        font-size: 16px;
+        margin: 0 0 14px;
+    }
+
+    .footer-list ul li {
+        margin: 0;
+    }
+
+    .footer-list ul li a {
+        font-size: 12px;
+    }
+
+    .footer-list ul li a img {
+        width: 80px;
+    }
+
+    .footer-list ul li span {
+        font-size: 12px;
+    }
+
+    .social-media a {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .nav-btn button {
+        border-radius: 4px;
+        width: 100px;
+        height: 45px;
+    }
+   .service-card .contact i {
+      font-size: 30px;  
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .food-product img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .food-product h6 {
+        font-size: 9px;
+    }
+
+    .food-product p {
+        font-size: 6px;
+    }
+
+    .all-btn button {
+        height: 20px;
+        padding: 0 10px;
+        border-radius: 2px;
+        font-size: 8px;
+    }
+
+    .food h5 {
+        font-size: 19px;
+    }
+
+    .video-right img {
+        width: 90px;
+    }
+
+    .food-right {
+        left: 60%;
+    }
+
+    .main-head {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .paw-right {
+        display: none;
+    }
+
+    .video-right img {
+        width: 70px;
+    }
+
+    .offerProImg img {
+        width: 75px;
+    }
+
+    .offer-productContent h1 {
+        font-size: 8px;
+    }
+
+    .offer-productContent button {
+        width: 50px;
+        height: 18px;
+        font-size: 5px;
+    }
+
+    .offer-rightIMG img {
+        width: 75px;
+    }
+
+    .brandLOGO img {
+        width: 55px;
+    }
+
+    .brand-main img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .brand-text h5 {
+        font-size: 10px;
+    }
+
+    .brand-bg h5 {
+        font-size: 9px;
+    }
+
+    .brand-bg a img {
+        width: 8px;
+    }
+
+    .brand-bg a {
+        font-size: 12px;
+    }
+
+}

@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.05em;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.section-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main-head {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.menu-mobile {
+    background: #fff;
+    padding: 12px;
+    z-index: 1;
+}
+
+/*============================ Navbar area css ======================= */
+
+.navbar-area {
+    background: #FFFFFF;
+    height: 85px;
+    box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-area a {
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-btn button {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 146px;
+    height: 49px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 5px 0 5px;
+}
+
+.yellow-btn {
+    background: #F1C21B !important;
+    border: none !important;
+}
+
+.blue-btn {
+    background: #008EFD !important;
+    border: none !important;
+}
+
+/* =========================== Home area css ================================ */
+.home-bg {
+    background: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0 45px;
+}
+.details img{
+    width: 100%;
+    height: auto;
+}
+
+.home-section {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.home-content button {
+    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p, 100%)/300% no-repeat, #F1C21B;
+    color: #fff;
+    border: none;
+    transform: perspective(500px) rotateY(calc(330deg*var(--_i, -1)));
+    transition: 0.3s;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 75px;
+    font-weight: 600;
+    font-size: 22.1195px;
+    padding: 0 30px;
+}
+
+.home-content button:hover {
+    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p, 100%)/300% no-repeat, #F1C21B !important;
+}
+
+.home-content button i {
+    margin: 12px;
+}
+
+.home-bg img {
+    width: 100%;
+    height: auto;
+}
+
+.home-content h1 {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.home-content p {
+    color: #FFFFFF;
+    margin: 10px 0 30px 0;
+}
+
+/* ============================== About area css =========================== */
+.main-left img {
+    width: 100%;
+    margin: 0 -15%;
+}
+
+.video-right {
+    text-align: right;
+}
+
+.about-Img {
+    position: relative;
+}
+
+.video-right img {
+    width: 130px;
+    position: absolute;
+    left: 70%;
+}
+
+.food-right {
+    text-align: right;
+    position: absolute;
+    left: 78%;
+    top: 77%;
+}
+
+.paw-right img {
+    width: 55px;
+    margin: 12px 0 0;
+}
+
+/* ==================== Shop Deals For Your Best Buddy ================= */
+.Shop-Deals {
+    text-align: center;
+}
+
+.Shop-Deals img {
+    width: 210px;
+    height: 100%;
+}
+
+.Shop-Deals h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 68px;
+    text-transform: capitalize;
+}
+
+.react-multiple-carousel__arrow {
+    display: none !important;
+}
+
+.custom-dot-list-style {
+    display: none !important;
+}
+
+
+/* -================== Dog Nutrients & Food======================== */
+
+.food h5 {
+    font-weight: 500;
+    font-size: 26px;
+    position: relative;
+    font-family: 'Poppins';
+}
+
+.food h5:before {
+    content: "";
+    position: absolute;
+    top: 26px;
+    left: 3px;
+    bottom: 0;
+    height: 15px;
+    width: 20%;
+    border-bottom: 4px solid #008EFD;
+}
+
+.foodMore a {
+    font-weight: 400;
+    font-size: 24px;
+    color: #008EFD;
+    font-family: 'Poppins';
+}
+
+.foodMore {
+    text-align: right;
+    margin: 25px 0;
+}
+
+.all-btn button {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 49px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 35px;
+}
+
+.all-btn button i {
+    margin: 0 5px;
+}
+
+.food-product {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 15px 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+}
+
+.food-product h6 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.food-product p {
+    color: #979697;
+}
+
+.food-product img {
+    width: 190px;
+    height: 190px;
+    margin: 10px 0;
+}
+
+/* =========== offer-productBG ========================= */
+.offer-productBG {
+    background: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 30px;
+}
+
+.offer-productContent {
+    text-align: center;
+}
+
+.offer-productContent button {
+    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p, 100%)/300% no-repeat, #F1C21B;
+    color: #fff;
+    border: none;
+    transform: perspective(500px) rotateY(calc(340deg*var(--_i, -1)));
+    transition: 0.3s;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 236px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 22.1195px;
+}
+
+.offer-productContent button:hover {
+    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p, 100%)/300% no-repeat, #F1C21B !important;
+}
+
+.offer-productContent h1 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #fff;
+}
+
+.offer-rightIMG {
+    position: absolute;
+    right: 40px;
+    top: 20%;
+}
+
+/* ================= Our Brand ===================== */
+.Brand-card {
+    box-shadow: 0px 0.747338px 22.4201px rgba(0, 0, 0, 0.05);
+    border-radius: 14.9468px;
+    position: relative;
+    text-align: center;
+    height: 100%;
+}
+
+.brandLOGO {
+    position: relative;
+    top: -30px;
+}
+
+.brandLOGO img {
+    width: 100px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 0px 7.47338px rgba(0, 0, 0, 0.05));
+    border-radius: 7.47338px;
+    padding: 12px;
+}
+
+.brand-main img {
+    width: 150px;
+    height: 150px;
+}
+
+.brand-text {
+    padding: 30px;
+}
+
+.brand-text h5 {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.brand-1 {
+    background: linear-gradient(180deg, #FECBCD 0%, rgba(254, 203, 205, 0) 100%);
+}
+
+.brand-2 {
+    background: linear-gradient(180deg, #FFF0BA 0%, rgba(252, 233, 166, 0) 100%);
+}
+
+.brand-3 {
+    background: linear-gradient(180deg, #C8FFBA 0%, rgba(200, 255, 186, 0) 100%);
+}
+
+.brand-4 {
+    background: linear-gradient(180deg, #C7EBFF 58.58%, rgba(199, 235, 255, 0) 104.1%);
+}
+
+.foodMoreone a {
+    font-weight: 400;
+    font-size: 24px;
+    color: #008EFD;
+    font-family: 'Poppins';
+}
+
+.foodMoreone {
+    text-align: right;
+    margin: 25px 0;
+}
+
+/* ==============Happy Customer ====================== */
+.brand-bg {
+    background: #008EFD;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
+
+.Brand-cus img {
+    width: 100%;
+}
+
+.brand-bg h5 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.brand-bg p {
+    font-size: 15px;
+}
+
+.brand-bg a {
+    margin: 0 4px 0 4px;
+    color: #fff;
+}
+
+.brand-bg a img {
+    width: 30px;
+}
+
+/* ================================ Footer area css ============================================ */
+
+
+.footer-list h5 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+    margin: 0 0 26px;
+}
+
+.footer-list ul {
+    padding: 0;
+}
+
+.footer-list ul li {
+    list-style-type: none;
+    margin: 12px 0;
+}
+
+.footer-list ul li a {
+    font-weight: 400;
+    font-size: 17px;
+    color: #000;
+    font-family: 'Poppins';
+}
+
+.footer-list ul li a img {
+    margin: 0 -10px;
+}
+
+.footer-list ul li span {
+    font-family: 'Inter';
+    color: #000;
+}
+
+.social-media a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+/* all pages area */
+/* about Page area css */
+
+.main-bg img{
+    width: 100%;
+}
+
+.aboutPage-img img {
+    width: 100%;
+}
+
+.aboutPage-content ul {
+    padding: 0 17px;
+}
+
+.aboutPage-content ul li {
+    list-style-type: square;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.needplace {
+    margin: 35px 0 0;
+}
+
+.needplace-card {
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding: 40px;
+    text-align: center;
+    transition: .5s;
+    border: 3px solid transparent;
+}
+
+.needplace-card:hover {
+    border: 3px solid #008EFD;
+}
+
+.needplace-card svg {
+    width: 100px;
+    height: 100px;
+    margin: 0 0 10px;
+}
+.about-choose {
+    border: 1.5px solid lightgray;
+    border-radius: 0 30px;
+    padding: 20px 20px 0;
+    height: 100%;
+}
+
+/* Service area css */
+
+.serIcon {
+    width: 80px;
+    height: 80px;
+    background: #e8ecfc;
+    border-radius: 33% 66% 70% 30%/49% 62% 38% 51%;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    padding: 15px;
+    margin: 0 0 15px;
+}
+.serIcon img {
+    width: 50px;
+    height: 50px;
+}
+.service-card {
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    padding: 15px 15px 0;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: .5s;
+    height: 100%;
+}
+.service-card:hover {
+    border: 2px solid #008EFD;
+}
+.service-card:hover .serIcon {
+    background: #008EFD;
+}
+.service-card:hover .serIcon img {
+    filter: brightness(0) invert(1);
+
+}
+.serviceIMG-Visit img {
+    border: 5px solid darkgray;
+    width: 483px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.service-Visit ul {
+    padding: 0;
+}
+.service-Visit ul li {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.service-Visit ul li i {
+    color: #008EFD;
+    margin: 10px 10px 10px 0;
+}
+
+
+
+
+
+/* ....//////... */
+.product-details{
+    margin-top: 70px;
+}
+.vaterinary-text{
+    margin-top: 50px;
+}
+.contact{
+    font-size: 50px;
+    /* justify-content: center; */
+    /* margin-left: 100px; */
+}
